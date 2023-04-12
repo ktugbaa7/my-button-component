@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'blushui'
+import { Button } from 'blushui'
 import 'blushui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button type='primaryBtn' text='Primary Button' /> 
+      <Button type='defaultBtn' text='Default Button' /> 
+      <Button type='dashedBtn' text='Dashed Button' /> 
+      <Button type='textBtn' text='Text Button' /> 
+      <Button type='linkBtn' text='Link Button' /> 
+    </>
+  )
 }
 
 export default App

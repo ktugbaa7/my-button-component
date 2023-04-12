@@ -1,9 +1,84 @@
 /* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f8dbdb; 
+}
+.primaryBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:  #8594e4;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.primaryBtn:hover {
+  width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #6279e0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.defaultBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: double;
+  border-color: #3232b0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:  #4444e2;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.dashedBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #d69bec;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:  #c6a0eb38;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.textBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #202020;
+}
+.textBtn:hover {
+  background-color: #e0cbfd;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.linkBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-style: none;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #5c5b5b;
+}
+.linkBtn:hover {
+  text-decoration: underline;
 }
